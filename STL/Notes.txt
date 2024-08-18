@@ -6,7 +6,6 @@ The STL is a cornerstone of modern C++ programming, enabling efficient code deve
 **Example of STL Usage**
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     vector numbers = {1, 2, 3, 4, 5};
     sort(numbers.begin(), numbers.end());
@@ -310,7 +309,6 @@ int main() {
     cout << "Top element: " << s.top() << endl;
     return 0;
 }
-
 Expected Output:Top element: 20
 
 
@@ -856,4 +854,7 @@ int main() {
 Expected Output: 2^3 = 8
 
 Conclusion
-The C++ Standard Template Library (STL) is a crucial component of modern C++ programming, offering a suite of highly efficient and reusable template classes and functions. Key elements of the STL include containers, algorithms, functions, and iterators, each designed to streamline and enhance common programming tasks. With its rich set of features, such as dynamic arrays (vectors), linked lists (lists), deques, stacks, queues, and associative containers (sets, maps), the STL simplifies data management and operations, promotes code reusability, and minimizes errors. Mastery of the STL is essential for developing high-performance C++ applications.
+The C++ Standard Template Library (STL) is a crucial component of modern C++ programming, offering a suite of highly efficient and reusable template classes and functions. 
+Key elements of the STL include containers, algorithms, functions, and iterators, each designed to streamline and enhance common programming tasks. With its rich set of features,
+ such as dynamic arrays (vectors), linked lists (lists), deques, stacks, queues, and associative containers (sets, maps), the STL simplifies data management and operations, 
+ promotes code reusability, and minimizes errors. Mastery of the STL is essential for developing high-performance C++ applications.
