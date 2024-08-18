@@ -1,2 +1,2 @@
-# C-
+# CPP
 CPP programming
